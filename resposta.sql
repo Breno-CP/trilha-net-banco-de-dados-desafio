@@ -1,14 +1,14 @@
 -- 1 - Buscar o nome e ano dos filmes
-SELECT Nome, Ano from Filmes f;
+SELECT Nome, Ano from Filmes f
 
 -- 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
-SELECT Nome, Ano, Duracao from Filmes f order by Ano; 
+SELECT Nome, Ano, Duracao from Filmes f order by Ano
 
 -- 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
 SELECT Nome, Ano, Duracao from Filmes f WHERE id = 28
 
  -- 4 - Buscar os filmes lançados em 1997
-SELECT Nome, Ano, Duracao from Filmes f WHERE Ano = 1997;
+SELECT Nome, Ano, Duracao from Filmes f WHERE Ano = 1997
 
 -- 5 - Buscar os filmes lançados APÓS o ano 2000
 SELECT Nome, Ano, Duracao from Filmes f WHERE Ano > 2000
